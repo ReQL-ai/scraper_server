@@ -5,9 +5,6 @@ from playwright.async_api import async_playwright
 import openai
 import os
 from openai import AsyncOpenAI
-from dotenv import load_dotenv
-
-load_dotenv()
 
 app = FastAPI()
 
